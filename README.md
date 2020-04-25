@@ -33,5 +33,5 @@ Will need the policy added to the role attached  to your mail server instance so
 Can run this as a cronjob to pull the microsoft ips every day as they will change sometimes.
 
 ```
-./script security_group_id aws_region
+./script security_group_id_port_587 security_group_id_port_25
 ```
